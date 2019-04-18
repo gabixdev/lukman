@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tylertreat/comcast/throttler"
+	"github.com/gabixdev/lukman/throttler"
 )
 
 const version = "1.0.0"
@@ -32,7 +32,7 @@ func main() {
 	flag.Parse()
 
 	if *vers {
-		fmt.Printf("Comcast version %s\n", version)
+		fmt.Printf("Lukman version %s\n", version)
 		return
 	}
 
